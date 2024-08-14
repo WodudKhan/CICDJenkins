@@ -4,7 +4,7 @@ pipeline {
         dockerfile {
             filename 'Dockerfile'
 	   // dir 'build'
-	    label 'cent7agent'
+	    label 'agentlinux'
 	   // args '-v /tmp:/tmp'
         }
     }
